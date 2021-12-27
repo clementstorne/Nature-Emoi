@@ -1,0 +1,26 @@
+header {
+  //   height: 1080px;
+  background: {
+    image: url("../../images/bg.jpg");
+    repeat: no-repeat;
+    position: top;
+    // size: 100%;
+  }
+  color: $white;
+}
+
+#slogan {
+  height: 825px;
+  width: 980px;
+  display: flex;
+  align-items: center;
+  //   padding: 224px 120px;
+  padding-left: 120px;
+}
+
+#scroll {
+  height: 105px;
+  padding-left: 120px;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,19 @@
+nav {
+  height: 150px;
+  padding: 64px 34px;
+  display: flex;
+  align-items: center;
+  img {
+    // width: 149px;
+    height: 74px;
+    padding-right: 44px;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row no-wrap;
+    li {
+      padding-right: 56px;
+    }
+  }
+}

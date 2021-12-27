@@ -1,0 +1,21 @@
+* {
+  font : {
+    family: "Montserrat", sans-serif;
+    size: 14px;
+  }
+  line-height: 1.05;
+  letter-spacing: 2;
+}
+
+h1 {
+  font: {
+    family: "Abril Fatface", cursive;
+    size: 87px;
+  }
+  color: $white;
+}
+
+a {
+  text-decoration: none;
+  color: $white;
+}

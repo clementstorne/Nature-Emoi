@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 1.05;
+  letter-spacing: 2;
+}
+
+h1 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 87px;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  background-image: url("../../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  color: #fff;
+}
+
+#slogan {
+  height: 825px;
+  width: 980px;
+  display: flex;
+  align-items: center;
+  padding-left: 120px;
+}
+
+#scroll {
+  height: 105px;
+  padding-left: 120px;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  height: 150px;
+  padding: 64px 34px;
+  display: flex;
+  align-items: center;
+}
+nav img {
+  height: 74px;
+  padding-right: 44px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row no-wrap;
+}
+nav ul li {
+  padding-right: 56px;
+}
+
+/*# sourceMappingURL=main.css.map */
