@@ -22,6 +22,27 @@ h1 {
   color: #fff;
 }
 
+h2 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 58px;
+  color: #000;
+  padding-left: 144px;
+}
+
+h2:after {
+  display: block;
+  width: 74px;
+  content: "";
+  border-bottom: 12px solid #add981;
+  box-shadow: #f3f3f3 0px 4px 1px;
+  margin-top: 6px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 21px;
+}
+
 a {
   text-decoration: none;
   color: #fff;
@@ -66,6 +87,53 @@ nav ul {
 }
 nav ul li {
   padding-right: 56px;
+}
+
+#services {
+  height: 343px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.service {
+  width: 215px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.service i {
+  color: #add981;
+  font-size: 30px;
+  text-shadow: #f3f3f3 0px 2px;
+  padding-bottom: 35px;
+}
+.service p {
+  font-weight: 500;
+  font-size: 21px;
+  text-align: center;
+}
+
+#meilleures-ventes {
+  height: 1080px;
+}
+
+#fiches {
+  display: grid;
+  grid-template-rows: 568px;
+  grid-template-columns: repeat(4, 401px);
+  padding: 50px 144px;
+}
+
+.fiche img {
+  object-fit: cover;
+}
+.fiche .infos {
+  height: 108px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 /*# sourceMappingURL=main.css.map */

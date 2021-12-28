@@ -1,0 +1,28 @@
+#services {
+  height: 343px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.service {
+  width: 215px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  i {
+    color: $lightgreen;
+    font-size: 30px;
+    text-shadow: $lightgray 0px 2px;
+    padding-bottom: 35px;
+  }
+  p {
+    font: {
+      weight: 500;
+      size: 21px;
+    }
+    text-align: center;
+  }
+}

@@ -1,0 +1,26 @@
+#meilleures-ventes {
+  height: 1080px;
+}
+
+#fiches {
+  width: 1644px;
+  display: grid;
+  grid-template-rows: 568px;
+  grid-template-columns: repeat(4, 411px);
+  margin: 50px 144px;
+  align-items: flex-end;
+}
+
+.fiche {
+  img {
+    object-fit: cover;
+    object-position: 50% 50%;
+    overflow: hidden;
+  }
+  .infos {
+    height: 108px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    transform: translate(0px, -108px);
+  }
+}
